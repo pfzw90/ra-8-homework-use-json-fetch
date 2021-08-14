@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    width:300px;
+    padding:20px;
+
+    color: #FFF;
+}
+
+.Fetcher-With-Data {
+    background-color: darkgreen;
+}
+
+.Fetcher-With-Error {
+    background-color: rgb(117, 19, 19);
+}
+
+.Fetcher-With-Loading {
+    background-color: rgb(219, 150, 0);
+}
